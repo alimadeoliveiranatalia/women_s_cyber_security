@@ -1,29 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-</html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quem somos</title>
-    <link rel="stylesheet" href="style/quemsomos.css">
-</head>
-
+<%- include('../partials/head'); %>
 <body>
     <!-- Página -->
     <div>
         <!-- Barra de navegação -->
         <div id="cabecalhonav">
             <h1>Quem Somos</h1>
-            <div id="menu">
-                <a href="home.html">Página Inicial</a> |
-                <a href="#">Quem Somos</a> |
-                <a href="atendimento.html">Atendimento às vítimas</a> |
-                <a href="depoimentos.html">Depoimentos</a> |
-                <a href="nosapoie.html">Nos apoie</a>
-            </div>
+            <%- include('../partials/header'); %>
         </div>
 
         <!-- Conteúdo -->
@@ -79,15 +63,7 @@
         </div>
     </div>
     <div class="area_img_home">
-        <footer>
-            <div class="container">
-                <div class="social">
-                    <div><a href="#"><img src="img/facebook.jpg" class="icone"></a></div>
-                    <div><a href="#"><img src="img/whatsapp.jpg" class="icone"></a></div>
-                    <div><a href="#"><img src="img/instagram.jpg" class="icone"></a></div>
-                </div>
-            </div>
-        </footer>
+        <%- include('../partials/footer'); %>
         </div>
 </body>
 
