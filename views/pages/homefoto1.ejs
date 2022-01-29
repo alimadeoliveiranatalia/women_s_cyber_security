@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/homefoto1.css">
-</head>
-
+<%- include('../partials/head'); %>
 <body>
     <!-- Página -->
     
         <!-- Barra de navegação -->
         <div class="cabecalhonav">
             <h1>Tá errado não!</h1>
-            <div class="menu">
-                <a href="home.html">Página Inicial</a> |
-                <a href="quemsomos.html">Quem Somos</a> |
-                <a href="atendimento.html">Atendimento às vítimas</a> |
-                <a href="depoimentos.html">Depoimentos</a> |
-                <a href="nosapoie.html">Nos apoie</a>
-            </div>
+            <%- include('../partials/header'); %>
         </div>
 
         <!-- Conteúdo -->
@@ -54,15 +40,7 @@
                     
         </div>
         <div class="area_img_home">
-                <footer>
-                    <div class="container">
-                        <div class="social">
-                            <div><a href="#"><img src="img/facebook.jpg" class="icone"></a></div>
-                            <div><a href="#"><img src="img/whatsapp.jpg" class="icone"></a></div>
-                            <div><a href="#"><img src="img/instagram.jpg" class="icone"></a></div>
-                        </div>
-                    </div>
-                </footer>
+            <%- include('../partials/footer'); %>
             </div>
 
     
