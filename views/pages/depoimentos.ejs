@@ -1,26 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Depoimentos</title>
-    <script src="js/depoimentos.js"></script>
-    <link rel="stylesheet" href="style/depoimentos.css">
-</head>
+<%- include('../partials/head'); %>
 <body>
     <!-- Página -->
     <!--<div>-->
         <!-- Barra de navegação -->
         <div id="cabecalhonav">
             <h1>Depoimentos</h1>
-            <div id="menu">
-                <a href="home.html">Página Inicial</a> |
-                <a href="quemsomos.html">Quem Somos</a> |
-                <a href="atendimento.html">Atendimento às vítimas</a> |
-                <a href="#">Depoimentos</a> |
-                <a href="nosapoie.html">Nos apoie</a>
-            </div>
+            <%- include('../partials/header'); %>
         </div>
         <!-- Conteúdo -->
         <div class="conteúdo">
@@ -123,15 +110,7 @@
 
             </div>
             <div class="area_img_home">
-                <footer>
-                    <div class="container">
-                        <div class="social">
-                            <div><a href="#"><img src="img/facebook.jpg" class="icone"></a></div>
-                            <div><a href="#"><img src="img/whatsapp.jpg" class="icone"></a></div>
-                            <div><a href="#"><img src="img/instagram.jpg" class="icone"></a></div>
-                        </div>
-                    </div>
-                </footer>
+                <%- include('../partials/footer'); %>
             </div>
         </div>
 
