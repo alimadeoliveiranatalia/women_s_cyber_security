@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atendimento</title>
+    <link rel="stylesheet" href="style/Atendimento.css">
+</head>
+<body>
+    <!-- Página -->
+    <div>
+        <!-- Barra de navegação -->
+        <div id="cabecalhonav">
+            <h1>Atendimento às vítimas</h1>
+            <div id="menu">
+                <a href="home.html">Página Inicial</a> |
+                <a href="quemsomos.html">Quem Somos</a> |
+                <a href="#">Atendimento às vítimas</a> |
+                <a href="depoimentos.html">Depoimentos</a> |
+                <a href="nosapoie.html">Nos apoie</a>
+            </div>
+        </div>
+        <!--logotipo-->
+        
+        <!-- formulário do atendimento -->
+        <div>
+            <!--<div>
+                <p>Você que foi vítima disseminação de material íntimo sem consentimento.
+                    Saiba que estamos com você. Preenchendo o formulário abaixo você nos dá 
+                    acesso a te auxiliar no processo de denúcia, atedimento psicológico e 
+                    aos programas de capacitação que oferecemos. Não se preocupe, sua 
+                    identificação é mantida em extremo sigilo.   
+                </p>
+            </div>-->
+            <div id="caixa_form">
+            <form class="formulario" method="post">
+                <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+
+                <div class="campo">
+                    <label for="nome">Seu Nome:</label>
+                    <br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required autofocus>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone">Seu Telefone:</label>
+                    <br>
+                    <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone" autofocus>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Seu E-Mail:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required autofocus>
+                </div>
+
+                <div class="campo">
+                    <label for="link">URL do local onde foi publicado suas fotos:</label>
+                    <br>
+                    <input type="link" id="link" name="link" placeholder="Digite o link aqui*" required autofocus>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required autofocus></textarea>
+                </div>
+
+                <input type="submit" name="acao" value="Enviar">
+            </form></div>
+        </div>
+
+
+    </div>
+<!--Rodapé-->   
+<div class="area_img_home">
+    <footer>
+        <div class="container">
+            <div class="social">
+                <div><a href="#"><img src="img/facebook.jpg" class="icone"></a></div>
+                <div><a href="#"><img src="img/whatsapp.jpg" class="icone"></a></div>
+                <div><a href="#"><img src="img/instagram.jpg" class="icone"></a></div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

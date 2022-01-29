@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Depoimentos</title>
+    <script src="js/depoimentos.js"></script>
+    <link rel="stylesheet" href="style/depoimentos.css">
+</head>
+<body>
+    <!-- Página -->
+    <!--<div>-->
+        <!-- Barra de navegação -->
+        <div id="cabecalhonav">
+            <h1>Depoimentos</h1>
+            <div id="menu">
+                <a href="home.html">Página Inicial</a> |
+                <a href="quemsomos.html">Quem Somos</a> |
+                <a href="atendimento.html">Atendimento às vítimas</a> |
+                <a href="#">Depoimentos</a> |
+                <a href="nosapoie.html">Nos apoie</a>
+            </div>
+        </div>
+        <!-- Conteúdo -->
+        <div class="conteúdo">
+            <div>
+                <p class="paragrafo">As testemunhas aqui relatadas tem seus nomes e endereços fictícios, devido ao protocolo de privacidade
+                    dados, conforme sugere a Lei de Proteção de Dados Pessoais, estabelecidos com as vítimas que se propoem a compartilhar 
+                    suas experiências pós traumáticas, compartilhando suas lutas, com o intuito de auxiliar outras vítimas e consientizar
+                    a sociedade para este crime, que é responsável de traumatizar milhares de mulheres.
+                </p>
+            </div>
+            <div class="dep_img" onmouseover="aumentar1(this)" onmouseout="diminuir1(this)">        
+                <div id="para_paragrafo1">
+                    <p>História de Laura</p>
+                </div>
+                <img src="img/sei.jpg" id="mini_img1" width="200px" height="300px">
+                <div id="middle1">
+                    <div>
+                        <audio controls id="audio" onmouseover="aumentar1(this)">
+                            <source src="audio/historia.mp3"></audio>
+                    </div>
+                </div>
+                <div id="para_paragrafo_baixo1">
+                   <p>"Eu fiquei brava comigo mesma por ter deixado isso acontecer comigo."</p>
+                </div>
+            </div>
+            <div class="dep_img" onmouseover="aumentar2(this)" onmouseout="diminuir2(this)">
+                <div id="para_paragrafo2">
+                    <p>Superação de Fernanda</p>
+                </div>
+                <img src="img/logo.jpg" id="mini_img2" width="200px" height="300px">
+                <div id="middle2">
+                    <div>
+                        <audio controls onmouseover="aumentar2(this)">
+                            <source src="audio/historia.mp3"></audio>
+                    </div>
+                </div>
+                <div id="para_paragrafo_baixo2">
+                    <p>"Só não me matei, graças à amigos, mas coragem nunca me faltou."</p>
+                </div>
+            </div>
+            <div class="dep_img" onmouseover="aumentar3(this)" onmouseout="diminuir3(this)">
+                <div id="para_paragrafo3">
+                    <p>A recaída de Aghata</p>
+                </div>
+                <img src="img/vitima_culpa.jpg" id="mini_img3" width="200px" height="300px">
+                <div id="middle3">
+                    <div>
+                        <audio controls onmouseover="aumentar3(this)">
+                            <source src="audio/historia.mp3"></audio>
+                    </div>
+                </div>
+                <div id="para_paragrafo_baixo3">
+                    <p>"Não é fácil ser todo dia forte, tem dias que você realmente quer morrer."</p>
+                </div>
+            </div>
+            <div class="dep_img" onmouseover="aumentar4(this)" onmouseout="diminuir4(this)">
+                <div id="para_paragrafo4">
+                    <p>O grande Perdão de Luzia</p>
+                </div>
+                <img src="img/fotos-intimas.jpg" id="mini_img4" width="200px" height="300px">
+                <div id="middle4">
+                    <div>
+                        <audio controls onmouseover="aumentar4(this)">
+                            <source src="audio/historia.mp3"></audio>
+                    </div>
+                </div>
+                <div id="para_paragrafo_baixo4">
+                    <p>"Se eu não parasse pra olhar para mim, eu iria continuar sendo a vadia que todos me chamavam."
+                    </p>
+                </div>
+            </div>
+            <div class="dep_img" onmouseover="aumentar5(this)" onmouseout="diminuir5(this)">
+                <div id="para_paragrafo5">
+                    <p>A recaída de Aghata</p>
+                </div>
+                <img src="img/aghata.jpg" id="mini_img5" width="200px" height="300px">
+                <div id="middle5">
+                    <audio controls onmouseover="aumentar5(this)">
+                    <source src="audio/historia.mp3"></audio>
+                </div>
+                <div id="para_paragrafo_baixo5">
+                    <p>"Queria ter feito mais por mim"</p>
+                </div>
+            </div>
+            <div class="dep_img" onmouseover="aumentar6(this)" onmouseout="diminuir6(this)">
+                <div id="para_paragrafo6">
+                    <p>Transformando histórias</p>
+                </div>
+                <img src="img/fundo-do-conceito-de-feminismo_23-2147978091.jpg" id="mini_img6" width="200px"
+                        height="300px">
+                <div id="middle6">
+                    <div>
+                        <audio controls onmouseover="aumentar6(this)">
+                            <source src="audio/historia.mp3"></audio>
+                    </div>
+                </div>
+                <div id="para_paragrafo_baixo6">
+                    <p>"Hoje estou determinada a encorajar as pessoas que passaram por esse constrangimento"</p>
+                </div>
+
+            </div>
+            <div class="area_img_home">
+                <footer>
+                    <div class="container">
+                        <div class="social">
+                            <div><a href="#"><img src="img/facebook.jpg" class="icone"></a></div>
+                            <div><a href="#"><img src="img/whatsapp.jpg" class="icone"></a></div>
+                            <div><a href="#"><img src="img/instagram.jpg" class="icone"></a></div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+    <!--</div>-->
+
+</body>
+
+</html>
