@@ -1,0 +1,24 @@
+{
+  "name": "women_s_cyber_security",
+  "version": "1.0.0",
+  "description": "Blog para apurar relatos, denuncias de mulheres que tiveram conteúdo íntimo publicado sem consentimento",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimadeoliveiranatalia/women_s_cyber_security.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimadeoliveiranatalia/women_s_cyber_security/issues"
+  },
+  "homepage": "https://github.com/alimadeoliveiranatalia/women_s_cyber_security#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
